@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;800&display=swap");
+/* Typography */
+* {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 18px; }
+
+/* Color */
+/* Typography */
+* {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 18px; }
+
+/* Color */
+header .logoHeader .button1Idle, header .button2Idle {
+  color: #FFF;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 0;
+  border-radius: 2rem; }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+body {
+  margin: 1rem; }
+
+header .logoHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  header .logoHeader .button1Idle {
+    background-color: #13183F;
+    padding: 1rem 1.5rem; }
+header .lead {
+  font-size: 2.222222222rem;
+  color: #13183F;
+  line-height: 2.833333333rem; }
+header p {
+  color: #83869A;
+  font-size: 0.888888889rem;
+  font-weight: 500;
+  line-height: 1.555555556rem;
+  margin-bottom: 1.2rem; }
+header .button2Idle {
+  background-color: #13183F;
+  background: linear-gradient(#FF6F48, #F02AA6);
+  padding: 1rem 2rem;
+  margin-bottom: 2rem; }
+header .heroImage {
+  width: 100%;
+  display: block;
+  margin: auto; }
+
+/*# sourceMappingURL=main.css.map */

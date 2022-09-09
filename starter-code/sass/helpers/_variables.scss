@@ -1,0 +1,36 @@
+/* Typography */
+
+* {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 18px;
+}
+
+$body-M: 1rem;
+$body-S: 0.888888889rem;
+
+$heading-XL: 3.11111111rem;
+$heading-L: 2.222222222rem;
+$heading-M: 1.777777778rem;
+$heading-S: 1.333333333rem;
+
+$lineHeight-XL: 3.888888889rem;
+$lineHeight-L: 2.833333333rem;
+$lineHeight-M: 2.222222222rem;
+$lineHeight-body: 1.555555556rem;
+//$lineHeight-body: calc(28/$body-M);
+
+$weight-medium: 500;
+$weight-bold: 600;
+$weight-extra-bold: 800;
+
+/* Color */
+$color-cornflower-blue: #666CA3;
+$color-dark-blue: #13183F;
+$color-gray: #83869A;
+$color-dark-magenta: #F74780;
+$color-light-magenta: #FFA7C3;
+$color-white: #FFF;
+$color-gradient-orange: #FF6F48;
+$color-gradient-magenta: #F02AA6;
+$color-gradient-blue: #4851FF;
+

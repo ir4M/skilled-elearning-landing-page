@@ -1,0 +1,28 @@
+@import "variables";
+
+%button {
+  color: $color-white;
+  font-size: $body-M;
+  font-weight: $weight-bold;
+  border: 0;
+  border-radius: 2rem;
+}
+
+@mixin button1Idle {
+  background-color: $color-dark-blue;
+  padding: 1rem 1.5rem;
+  @extend %button;
+}
+
+@mixin button2Idle {
+  background: linear-gradient($color-gradient-orange, $color-gradient-magenta);
+  padding: 1rem 2rem;
+  @extend %button;
+}
+
+@mixin paragraph {
+  color: $color-gray;
+  font-size: $body-S;
+  font-weight: $weight-medium;
+  line-height: $lineHeight-body;
+}

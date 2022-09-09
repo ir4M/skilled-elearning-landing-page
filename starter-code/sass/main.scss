@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;800&display=swap');
+@import "helpers/variables";
+@import "helpers/mixins";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+
+}
+
+body {
+  margin: 1rem;
+}
+
+header {
+  .logoHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .button1Idle {
+      @include button1Idle;
+    }
+  }
+
+  .lead {
+    font-size: $heading-L;
+    color: $color-dark-blue;
+    line-height: $lineHeight-L;
+  }
+
+  p {
+    @include paragraph;
+    margin-bottom: 1.2rem;
+  }
+
+  .button2Idle {
+    background-color: $color-dark-blue;
+    @include button2Idle;
+    margin-bottom: 2rem;
+  }
+
+  .heroImage {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+}
