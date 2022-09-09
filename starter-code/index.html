@@ -5,26 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./sass/main.css">
+
   <title>Frontend Mentor | Skilled e-learning landing page</title>
 </head>
 <body>
   <header>
-    <a href="#">skilled</a>
-    <button class="button1Idle">Get Started</button>
+    <div class="logoHeader">
+      <img src="./assets/logo-dark.svg" alt="Skilled Logo" class="logo">
+      <button class="button1Idle">Get Started</button>
+    </div>
     <h1 class="lead">Maximize skill, minimize budget</h1>
     <p>Our modern courses across a range of in-demand skills will give you the knowledge you need to live the life you
       want.</p>
     <button class="button2Idle">Get Started</button>
-    <img class="heroImage" src="./assets/image-hero-mobile.png" alt="Woman drinking coffee">
-    <div class="statBox">
-      <h5 class="statHeading">Members</h5>
-      <p class="statValue">29k</p>
-    </div>
-    <div class="statBox">
-      <h5 class="statHeading">Course hours</h5>
-      <p class="statValue">1,451</p>
-    </div>
+    <picture>
+      <source srcset="./assets/image-hero-mobile@2x.png 2x">
+      <source srcset="./assets/image-hero-mobile@2x.webp 2x">
+      <source srcset="./assets/image-hero-mobile.png">
+      <img class="heroImage" src="./assets/image-hero-mobile.webp" alt="Woman drinking coffee">
+    </picture>
+
   </header>
   <main>
     <h2 class="courses">Check out our most popular courses!</h2>
@@ -59,7 +60,7 @@
     <a href="" class="ctaLink">Get Started</a>
   </main>
   <footer>
-    <a href="#">skilled</a>
+    <img src="./assets/logo-light.svg" alt="Skilled Logo" class="logo">
     <button class="button3Idle">Get Started</button>
   </footer>
 </body>
