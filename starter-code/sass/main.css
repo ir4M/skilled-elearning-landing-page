@@ -32,7 +32,7 @@ header {
     align-items: center; }
     header .logoHeader .button1Idle {
       background-color: #13183F;
-      padding: .7rem 1.5rem; }
+      padding: .7rem 1.1rem; }
     header .logoHeader .button1Idle:hover {
       background-color: #666CA3; }
   header .lead {
@@ -47,7 +47,7 @@ header {
     margin-bottom: 1.2rem; }
   header .button2Idle {
     background: linear-gradient(#FF6F48, #F02AA6);
-    padding: .9rem 1.5rem;
+    padding: .9rem 1.8rem;
     margin-bottom: 2rem; }
   header .button2Idle:hover {
     background: linear-gradient(rgba(255, 255, 255, 0.5) 100%, rgba(255, 255, 255, 0.5) 100%), linear-gradient(#FF6F48, #F02AA6); }
@@ -103,7 +103,7 @@ footer {
   padding: 0 1rem; }
   footer .button3Idle {
     background: linear-gradient(#4851FF, #F02AA6);
-    padding: .7rem 1.5rem; }
+    padding: .7rem 1.1rem; }
   footer .button3Idle:hover {
     background: linear-gradient(rgba(255, 255, 255, 0.5) 100%, rgba(255, 255, 255, 0.5) 100%), linear-gradient(#4851FF, #F02AA6); }
 
