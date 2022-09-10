@@ -25,6 +25,10 @@ header {
     .button1Idle {
       @include button1Idle;
     }
+
+    .button1Idle:hover {
+      @include button1IdleHover;
+    }
   }
 
   .lead {
@@ -41,6 +45,10 @@ header {
   .button2Idle {
     @include button2Idle;
     margin-bottom: 2rem;
+  }
+
+  .button2Idle:hover {
+    @include button2IdleHover;
   }
 
   .heroImage {
@@ -93,6 +101,11 @@ main {
       color: $color-magenta;
       font-weight: $weight-bold;
       text-decoration: none;
+      transition: color .5s ease;
+    }
+
+    .ctaLink:hover {
+      color: $color-light-magenta;
     }
   }
 }
@@ -107,5 +120,9 @@ footer {
 
   .button3Idle {
     @include button3Idle;
+  }
+
+  .button3Idle:hover {
+    @include button3IdleHover;
   }
 }

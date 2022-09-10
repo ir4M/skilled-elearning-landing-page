@@ -15,16 +15,28 @@
   @extend %button;
 }
 
+@mixin button1IdleHover {
+  background-color: $color-cornflower-blue;
+}
+
 @mixin button2Idle {
   background: linear-gradient($color-orange, $color-magenta);
   @include wideButton;
   @extend %button;
 }
 
+@mixin button2IdleHover {
+  background: $color-gradient-orange_50;
+}
+
 @mixin button3Idle {
   background: linear-gradient($color-blue, $color-magenta);
   @include narrowButton;
   @extend %button;
+}
+
+@mixin button3IdleHover {
+  background: $color-gradient-blue_50;
 }
 
 @mixin paragraph {
