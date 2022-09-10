@@ -5,7 +5,7 @@
 /* Color */
 /* Typography */
 /* Color */
-header .logoHeader .button1Idle, header .button2Idle {
+header .logoHeader .button1Idle, header .button2Idle, footer .button3Idle {
   color: #FFF;
   font-size: 1rem;
   font-weight: 600;
@@ -20,65 +20,81 @@ header .logoHeader .button1Idle, header .button2Idle {
   font-size: 18px; }
 
 body {
-  margin: 1rem;
-  background-color: aliceblue; }
+  margin: 0;
+  background: linear-gradient(#FFF, #F0F1FF); }
 
-header .logoHeader {
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
-  header .logoHeader .button1Idle {
-    background-color: #13183F;
-    padding: 1rem 1.5rem; }
-header .lead {
-  font-size: 2.222222222rem;
-  color: #13183F;
-  line-height: 2.833333333rem; }
-header p {
-  color: #83869A;
-  font-size: 0.888888889rem;
-  font-weight: 500;
-  line-height: 1.555555556rem;
-  margin-bottom: 1.2rem; }
-header .button2Idle {
-  background-color: #13183F;
-  background: linear-gradient(#FF6F48, #F02AA6);
-  padding: 1rem 2rem;
-  margin-bottom: 2rem; }
-header .heroImage {
-  width: 100%;
-  display: block;
-  margin: auto; }
-
-main .leadCourses {
-  font-size: 1.333333333rem;
-  font-weight: 800;
-  color: #FFF;
-  background: linear-gradient(#FF6F48, #F02AA6);
-  padding: 1.6rem 1.5rem;
-  border-radius: .5rem; }
-main .course {
-  background: #FFF;
-  padding: 0 1.5rem 2rem 1.5rem;
-  margin-bottom: 2rem;
-  border-radius: .5rem; }
-  main .course .coursesImages {
-    display: block;
-    position: relative;
-    bottom: 1.3rem; }
-  main .course:nth-of-type(1) {
-    margin-top: 2rem; }
-  main .course .coursesHeadings {
+header {
+  margin: 1rem; }
+  header .logoHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    header .logoHeader .button1Idle {
+      background-color: #13183F;
+      padding: .7rem 1.5rem; }
+  header .lead {
+    font-size: 2.222222222rem;
     color: #13183F;
-    margin-top: 0; }
-  main .course .coursesParagraphs {
+    line-height: 2.833333333rem; }
+  header p {
     color: #83869A;
     font-size: 0.888888889rem;
     font-weight: 500;
-    line-height: 1.555555556rem; }
-  main .course .ctaLink {
-    color: #F02AA6;
-    font-weight: 600;
-    text-decoration: none; }
+    line-height: 1.555555556rem;
+    margin-bottom: 1.2rem; }
+  header .button2Idle {
+    background: linear-gradient(#FF6F48, #F02AA6);
+    padding: .9rem 1.5rem;
+    margin-bottom: 2rem; }
+  header .heroImage {
+    width: 100%;
+    display: block;
+    margin: auto; }
+
+main {
+  margin: 1rem; }
+  main .leadCourses {
+    font-size: 1.333333333rem;
+    font-weight: 800;
+    color: #FFF;
+    background: linear-gradient(#FF6F48, #F02AA6);
+    padding: 1.6rem 1.5rem;
+    border-radius: .5rem; }
+  main .course {
+    background: #FFF;
+    padding: 0 1.5rem 2rem 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: .5rem; }
+    main .course .coursesImages {
+      display: block;
+      position: relative;
+      bottom: 1.3rem; }
+    main .course:nth-of-type(1) {
+      margin-top: 2rem; }
+    main .course:nth-of-type(5) {
+      margin-bottom: 4rem; }
+    main .course .coursesHeadings {
+      color: #13183F;
+      margin-top: 0; }
+    main .course .coursesParagraphs {
+      color: #83869A;
+      font-size: 0.888888889rem;
+      font-weight: 500;
+      line-height: 1.555555556rem; }
+    main .course .ctaLink {
+      color: #F02AA6;
+      font-weight: 600;
+      text-decoration: none; }
+
+footer {
+  background-color: #13183F;
+  min-height: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem; }
+  footer .button3Idle {
+    background: linear-gradient(#4851FF, #F02AA6);
+    padding: .7rem 1.5rem; }
 
 /*# sourceMappingURL=main.css.map */

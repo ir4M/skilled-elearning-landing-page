@@ -1,15 +1,29 @@
 @import "variables";
 @import "../components/button";
 
+@mixin wideButton {
+  padding: .9rem 1.5rem;
+}
+
+@mixin narrowButton {
+  padding: .7rem 1.5rem;
+}
+
 @mixin button1Idle {
   background-color: $color-dark-blue;
-  padding: 1rem 1.5rem;
+  @include narrowButton;
   @extend %button;
 }
 
 @mixin button2Idle {
   background: linear-gradient($color-orange, $color-magenta);
-  padding: 1rem 2rem;
+  @include wideButton;
+  @extend %button;
+}
+
+@mixin button3Idle {
+  background: linear-gradient($color-blue, $color-magenta);
+  @include narrowButton;
   @extend %button;
 }
 
