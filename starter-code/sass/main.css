@@ -1,15 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;800&display=swap");
 /* Typography */
-* {
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  font-size: 18px; }
-
 /* Color */
 /* Typography */
-* {
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  font-size: 18px; }
-
+/* Color */
+/* Typography */
 /* Color */
 header .logoHeader .button1Idle, header .button2Idle {
   color: #FFF;
@@ -21,10 +15,13 @@ header .logoHeader .button1Idle, header .button2Idle {
 *,
 *::before,
 *::after {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 18px; }
 
 body {
-  margin: 1rem; }
+  margin: 1rem;
+  background-color: aliceblue; }
 
 header .logoHeader {
   display: flex;
@@ -52,5 +49,36 @@ header .heroImage {
   width: 100%;
   display: block;
   margin: auto; }
+
+main .leadCourses {
+  font-size: 1.333333333rem;
+  font-weight: 800;
+  color: #FFF;
+  background: linear-gradient(#FF6F48, #F02AA6);
+  padding: 1.6rem 1.5rem;
+  border-radius: .5rem; }
+main .course {
+  background: #FFF;
+  padding: 0 1.5rem 2rem 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: .5rem; }
+  main .course .coursesImages {
+    display: block;
+    position: relative;
+    bottom: 1.3rem; }
+  main .course:nth-of-type(1) {
+    margin-top: 2rem; }
+  main .course .coursesHeadings {
+    color: #13183F;
+    margin-top: 0; }
+  main .course .coursesParagraphs {
+    color: #83869A;
+    font-size: 0.888888889rem;
+    font-weight: 500;
+    line-height: 1.555555556rem; }
+  main .course .ctaLink {
+    color: #F02AA6;
+    font-weight: 600;
+    text-decoration: none; }
 
 /*# sourceMappingURL=main.css.map */

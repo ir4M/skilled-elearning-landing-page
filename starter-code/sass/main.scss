@@ -6,10 +6,13 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 18px;
 }
 
 body {
   margin: 1rem;
+  background-color: aliceblue;
 }
 
 header {
@@ -44,5 +47,47 @@ header {
     width: 100%;
     display: block;
     margin: auto;
+  }
+}
+
+main {
+  .leadCourses {
+    font-size: $heading-S;
+    font-weight: $weight-extra-bold;
+    color: $color-white;
+    background: $color-gradient-orange;
+    @include paddingBoxes;
+    border-radius: .5rem;
+  }
+
+  .course {
+    background: $color-white;
+    padding: 0 1.5rem 2rem 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: .5rem;
+    .coursesImages {
+      display: block;
+      position: relative;
+      bottom: 1.3rem;
+    }
+
+    &:nth-of-type(1) {
+      margin-top: 2rem;
+    }
+
+    .coursesHeadings {
+      color: $color-dark-blue;
+      margin-top: 0;
+    }
+
+    .coursesParagraphs {
+      @include paragraph;
+    }
+
+    .ctaLink {
+      color: $color-magenta;
+      font-weight: $weight-bold;
+      text-decoration: none;
+    }
   }
 }

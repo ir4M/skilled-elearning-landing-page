@@ -1,10 +1,5 @@
 /* Typography */
 
-* {
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  font-size: 18px;
-}
-
 $body-M: 1rem;
 $body-S: 0.888888889rem;
 
@@ -30,7 +25,10 @@ $color-gray: #83869A;
 $color-dark-magenta: #F74780;
 $color-light-magenta: #FFA7C3;
 $color-white: #FFF;
-$color-gradient-orange: #FF6F48;
-$color-gradient-magenta: #F02AA6;
-$color-gradient-blue: #4851FF;
+$color-orange: #FF6F48;
+$color-magenta: #F02AA6;
+$color-blue: #4851FF;
+
+$color-gradient-orange: linear-gradient($color-orange, $color-magenta);
+$color-gradient-blue: linear-gradient($color-blue, $color-orange);
 

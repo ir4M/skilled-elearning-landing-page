@@ -1,0 +1,9 @@
+@import "../helpers/variables";
+
+%button {
+  color: $color-white;
+  font-size: $body-M;
+  font-weight: $weight-bold;
+  border: 0;
+  border-radius: 2rem;
+}

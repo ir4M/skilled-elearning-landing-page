@@ -1,12 +1,5 @@
 @import "variables";
-
-%button {
-  color: $color-white;
-  font-size: $body-M;
-  font-weight: $weight-bold;
-  border: 0;
-  border-radius: 2rem;
-}
+@import "../components/button";
 
 @mixin button1Idle {
   background-color: $color-dark-blue;
@@ -15,7 +8,7 @@
 }
 
 @mixin button2Idle {
-  background: linear-gradient($color-gradient-orange, $color-gradient-magenta);
+  background: linear-gradient($color-orange, $color-magenta);
   padding: 1rem 2rem;
   @extend %button;
 }
@@ -25,4 +18,8 @@
   font-size: $body-S;
   font-weight: $weight-medium;
   line-height: $lineHeight-body;
+}
+
+@mixin paddingBoxes {
+  padding: 1.6rem 1.5rem;
 }
