@@ -15,16 +15,23 @@
       <img src="./assets/logo-dark.svg" alt="Skilled Logo" class="logo">
       <button class="button1Idle">Get Started</button>
     </div>
-    <h1 class="lead">Maximize skill, minimize budget</h1>
-    <p>Our modern courses across a range of in-demand skills will give you the knowledge you need to live the life you
-      want.</p>
-    <button class="button2Idle">Get Started</button>
-    <picture>
-      <source srcset="./assets/image-hero-mobile@2x.png 2x">
-      <source srcset="./assets/image-hero-mobile@2x.webp 2x">
-      <source srcset="./assets/image-hero-mobile.png">
-      <img class="heroImage" src="./assets/image-hero-mobile.webp" alt="Woman drinking coffee">
-    </picture>
+    <div class="container">
+      <div class="contentHeader">
+        <h1 class="lead">Maximize skill, minimize budget</h1>
+        <p>Our modern courses across a range of in-demand skills will give you the knowledge you need to live the life you
+          want.</p>
+        <button class="button2Idle">Get Started</button>
+      </div>
+      <picture>
+        <source media="(max-width: 767px)" srcset="./assets/image-hero-mobile@2x.png 2x, ./assets/image-hero-mobile.png">
+        <source media="(max-width: 1023px)" srcset="./assets/image-hero-tablet@2x.png 2x, ./assets/image-hero-tablet.png">
+        <source media="(min-width: 1024px)" srcset="./assets/image-hero-desktop@2x.png 2x, ./assets/image-hero-desktop.png">
+        <source media="(max-width: 767px)" srcset="./assets/image-hero-mobile@2x.webp 2x, ./assets/image-hero-mobile.webp">
+        <source media="(max-width: 1023px)" srcset="./assets/image-hero-tablet@2x.webp 2x, ./assets/image-hero-tablet.webp">
+        <source media="(min-width: 1024px)" srcset="./assets/image-hero-desktop@2x.webp 2x, ./assets/image-hero-desktop.webp">
+        <img class="heroImage" src="./assets/image-hero-mobile.webp" alt="Woman drinking coffee">
+      </picture>
+    </div>
 
   </header>
   <main>
