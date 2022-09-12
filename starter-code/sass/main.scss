@@ -236,51 +236,10 @@ footer {
   header {
     margin-inline: 18rem;
     margin-bottom: 22rem;
-    .container {
-      height: 100%;
-      width: 100%;
-      display: grid;
-      grid-template-columns: 50% 50%;
-      .lead {
-        margin-top: 2.5em;
-      }
-      .button2Idle {
-        margin: 1rem 0;
-      }
-    }
-    picture {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-    }
-    .heroImage {
-      position: relative;
-      left: 16rem;
-      bottom: 12rem;
-      z-index: -1;
-    }
   }
 
   main {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 3rem 1rem;
     margin-inline: 18rem;
-    & .leadCourses,
-    & .course {
-      flex: 1 0 calc(33% - 2rem);
-      margin-bottom: 0;
-      &:nth-of-type(1) {
-        margin-top: 0;
-      }
-
-      &:nth-of-type(5) {
-        margin-bottom: 0;
-      }
-    }
-    & .course:nth-last-child(-n+3) {
-      margin-bottom: 4rem;
-    }
   }
 
   footer {
