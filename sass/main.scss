@@ -132,6 +132,7 @@ footer {
   header {
     margin-bottom: 12rem;
     .container {
+      position: relative;
       height: 100%;
       width: 100%;
       display: grid;
@@ -139,18 +140,12 @@ footer {
       .lead {
         margin-top: 2em;
       }
-    }
-    picture {
-      position: absolute;
-      z-index: -2;
-      width: 100%;
-      height: 100%;
-    }
-    .heroImage {
-      position: relative;
-      left: 18rem;
-      bottom: 8rem;
-      z-index: -1;
+      .containerImage {
+        z-index: -1;
+        position: absolute;
+        bottom: -12rem;
+        right: -17.4rem;
+      }
     }
   }
 
@@ -181,6 +176,7 @@ footer {
     margin-inline: 6rem;
     margin-bottom: 18rem;
     .container {
+      position: relative;
       height: 100%;
       width: 100%;
       display: grid;
@@ -191,17 +187,12 @@ footer {
       .button2Idle {
         margin: 1rem 0;
       }
-    }
-    picture {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-    }
-    .heroImage {
-      position: relative;
-      left: 16rem;
-      bottom: 12rem;
-      z-index: -1;
+      .containerImage {
+        z-index: -1;
+        position: absolute;
+        bottom: -16rem;
+        right: -27.7rem;
+      }
     }
   }
 
